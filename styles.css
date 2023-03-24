@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    align-items: center;
+    letter-spacing: 0.06em;
+    background: #F5F5F6;
+   
+
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.items {
+    color: #959BA4;
+
+}
+
+.bank {
+    color: black;
+}
+
+.arrive {
+    background: #FFFFFF;
+    border-radius: 4px;
+    min-width: 58px;
+    height: 33px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 102px;
+    margin-left: 109px;
+}
+
+.logo {
+    margin: 15px 64px 12px 100px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 56px 312px 33px 0;
+}
+
+main {
+    padding-left: 253px;
+}
+
+.currency-converter {
+    display: flex;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.names {
+    display: flex;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+
+}
+
+input {
+    max-width: 200px;
+    outline: none;
+    border: none;
+    height: 38px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.currency {
+    border: 0.5px solid #E5E5E5;
+    width: 65.06px;
+    height: 30px;
+    color: #C6C6C6;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+.selected {
+    color: white;
+    background-color: #833AE0;
+
+}
+
+.currency:hover {
+    cursor: pointer;
+}
+
+.text {
+    color: #9F9F9F;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+
+}
+
+.currency-from {
+    margin-right: 123px;
+}
+
+.amount {
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 11px 0 5px 16px;
+}
+
+.rate {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #C6C6C6;
+    line-height: 24px;
+
+}
